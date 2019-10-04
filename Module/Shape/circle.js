@@ -2,7 +2,7 @@
 //   area: (radius) => Math.PI * radius * radius,
 // }
 
-const {PI} = Math
+const {PI} = Math;
 module.exports = {
   area: (radius) => PI * radius * radius,
 }
