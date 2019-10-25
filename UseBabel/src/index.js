@@ -12,4 +12,4 @@ const server = http.createServer((request, response) => {
   response.end();
 }).listen(port);
 console.log(`Server is running on port : ${port}`);
-console.log(`Hello, how are you? I am fine`)
+console.log(`Hello, how are you? I am fine`);

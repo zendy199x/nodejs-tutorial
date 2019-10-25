@@ -1,15 +1,15 @@
 {
-  "name": "httpmoduletutorial",
+  "name": "nodejstutorial",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a tutorial project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start1": "babel-node index.js --presets es2015,stage-2",
-    "start": "nodemon src/index.js --exec babel-node",
-    "build": "babel src -d distribution",
-    "serve": "node distribution/index.js"
-  },
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start1": "babel-node src/index.js",
+  "start": "nodemon src/index.js --exec babel-node",
+  "build": "babel src -d distribution",
+  "serve": "node distribution/index.js"
+},
   "author": "",
   "license": "ISC",
   "devDependencies": {
